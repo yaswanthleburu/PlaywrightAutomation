@@ -1,0 +1,144 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "options-menu-actions;the-cms-company-options-page-supports-selecting-options-from-the-menu.",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "The CMS Company Options page supports selecting options from the menu.",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 478895700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I am logged into the CMS application",
+            "match": {
+              "location": "tests\\steps\\searchInvoice.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7416687999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I click the \"DataManagementMenu\" on the \"homePage\" Page",
+            "match": {
+              "location": "tests\\steps\\optionMenu.step.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 93664700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I click the \"CompanyManagementMenu\" on the \"homePage\" Page",
+            "match": {
+              "location": "tests\\steps\\optionMenu.step.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 69114499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I click the \"CompaniesMenu\" on the \"homePage\" Page",
+            "match": {
+              "location": "tests\\steps\\optionMenu.step.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 76928999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I verify that the \"Companies\" page is displayed under \"companiesPage\"",
+            "match": {
+              "location": "tests\\steps\\optionMenu.step.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3630562499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I click the option menu",
+            "match": {
+              "location": "tests\\steps\\optionMenu.step.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 118697999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I verified Option menu popup",
+            "match": {
+              "location": "tests\\steps\\optionMenu.step.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 32499800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I log out from the CMS application",
+            "match": {
+              "location": "tests\\steps\\searchInvoice.ts:71"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 110531498
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 37062599
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "options-menu-actions",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Options Menu Actions",
+    "tags": [],
+    "uri": "tests\\features\\optionMenu.feature"
+  }
+]
