@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 478895700
+              "duration": 179365099
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 7416687999
+              "duration": 11968001100
             }
           },
           {
@@ -40,7 +40,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 93664700
+              "duration": 1252683399
             }
           },
           {
@@ -53,7 +53,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 69114499
+              "duration": 83274799
             }
           },
           {
@@ -66,7 +66,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 76928999
+              "duration": 97048600
             }
           },
           {
@@ -79,7 +79,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3630562499
+              "duration": 900173399
             }
           },
           {
@@ -92,7 +92,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 118697999
+              "duration": 112059899
             }
           },
           {
@@ -105,7 +105,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 32499800
+              "duration": 23936198
             }
           },
           {
@@ -118,7 +118,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 110531498
+              "duration": 99790100
             }
           },
           {
@@ -126,7 +126,2090 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 37062599
+              "duration": 27237399
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "options-menu-actions;the-cms-users-options-page-supports-selecting-options-from-the-menu.",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "The CMS Users Options page supports selecting options from the menu.",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 96914199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 15,
+            "name": "I am logged into the CMS application",
+            "match": {
+              "location": "tests\\steps\\searchInvoice.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7632210499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "I click the \"DataManagementMenu\" on the \"homePage\" Page",
+            "match": {
+              "location": "tests\\steps\\optionMenu.step.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 91622499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "I click the \"CompanyManagementMenu\" on the \"homePage\" Page",
+            "match": {
+              "location": "tests\\steps\\optionMenu.step.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 57748999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "I click the \"UsersMenu\" on the \"homePage\" Page",
+            "match": {
+              "location": "tests\\steps\\optionMenu.step.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 57327300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "I verify that the \"Users\" page is displayed under \"companiesPage\"",
+            "match": {
+              "location": "tests\\steps\\optionMenu.step.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1967201198
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "I click the option menu",
+            "match": {
+              "location": "tests\\steps\\optionMenu.step.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 60216698
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "I verified Option menu popup",
+            "match": {
+              "location": "tests\\steps\\optionMenu.step.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 27606300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "I log out from the CMS application",
+            "match": {
+              "location": "tests\\steps\\searchInvoice.ts:71"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 83001699
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 14219099
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "options-menu-actions;the-cms-roles-options-page-supports-selecting-options-from-the-menu.",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "The CMS Roles Options page supports selecting options from the menu.",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 81896700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 25,
+            "name": "I am logged into the CMS application",
+            "match": {
+              "location": "tests\\steps\\searchInvoice.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7499868198
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 26,
+            "name": "I click the \"DataManagementMenu\" on the \"homePage\" Page",
+            "match": {
+              "location": "tests\\steps\\optionMenu.step.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1114451499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "I click the \"CompanyManagementMenu\" on the \"homePage\" Page",
+            "match": {
+              "location": "tests\\steps\\optionMenu.step.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 52093599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "I click the \"RolesMenu\" on the \"homePage\" Page",
+            "match": {
+              "location": "tests\\steps\\optionMenu.step.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 87816800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 29,
+            "name": "I verify that the \"Roles\" page is displayed under \"companiesPage\"",
+            "match": {
+              "location": "tests\\steps\\optionMenu.step.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1444778000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "I click the option menu",
+            "match": {
+              "location": "tests\\steps\\optionMenu.step.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 60044098
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 31,
+            "name": "I verified Option menu popup",
+            "match": {
+              "location": "tests\\steps\\optionMenu.step.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 25573200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 32,
+            "name": "I log out from the CMS application",
+            "match": {
+              "location": "tests\\steps\\searchInvoice.ts:71"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 63598600
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 11877100
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "options-menu-actions;the-cms-paired-move-ftp-settings-options-page-supports-selecting-options-from-the-menu.",
+        "keyword": "Scenario",
+        "line": 34,
+        "name": "The CMS Paired Move FTP Settings Options page supports selecting options from the menu.",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 79674800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 35,
+            "name": "I am logged into the CMS application",
+            "match": {
+              "location": "tests\\steps\\searchInvoice.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7616945000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 36,
+            "name": "I click the \"DataManagementMenu\" on the \"homePage\" Page",
+            "match": {
+              "location": "tests\\steps\\optionMenu.step.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 82996699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 37,
+            "name": "I click the \"CompanyManagementMenu\" on the \"homePage\" Page",
+            "match": {
+              "location": "tests\\steps\\optionMenu.step.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 73339898
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 38,
+            "name": "I click the \"PairedMoveFTPSettingsMenu\" on the \"homePage\" Page",
+            "match": {
+              "location": "tests\\steps\\optionMenu.step.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 142636099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 39,
+            "name": "I verify that the \"PairedMoveFTPSettings\" page is displayed under \"companiesPage\"",
+            "match": {
+              "location": "tests\\steps\\optionMenu.step.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 917765598
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 40,
+            "name": "I click the option menu",
+            "match": {
+              "location": "tests\\steps\\optionMenu.step.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 77923099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 41,
+            "name": "I verified Option menu popup",
+            "match": {
+              "location": "tests\\steps\\optionMenu.step.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17670898
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 42,
+            "name": "I log out from the CMS application",
+            "match": {
+              "location": "tests\\steps\\searchInvoice.ts:71"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 74297399
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 12836999
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "options-menu-actions;the-cms-outbound-edi-301-ftp-settings-options-page-supports-selecting-options-from-the-menu.",
+        "keyword": "Scenario",
+        "line": 44,
+        "name": "The CMS Outbound EDI 301 FTP Settings Options page supports selecting options from the menu.",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 88820099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 45,
+            "name": "I am logged into the CMS application",
+            "match": {
+              "location": "tests\\steps\\searchInvoice.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7353121999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 46,
+            "name": "I click the \"DataManagementMenu\" on the \"homePage\" Page",
+            "match": {
+              "location": "tests\\steps\\optionMenu.step.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1122088300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 47,
+            "name": "I click the \"CompanyManagementMenu\" on the \"homePage\" Page",
+            "match": {
+              "location": "tests\\steps\\optionMenu.step.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 56891400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 48,
+            "name": "I click the \"OutboundEDI301FTPSettingsMenu\" on the \"homePage\" Page",
+            "match": {
+              "location": "tests\\steps\\optionMenu.step.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 64470799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 49,
+            "name": "I verify that the \"OutboundEDI301FTPSettings\" page is displayed under \"companiesPage\"",
+            "match": {
+              "location": "tests\\steps\\optionMenu.step.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1462230300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 50,
+            "name": "I click the option menu",
+            "match": {
+              "location": "tests\\steps\\optionMenu.step.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 76572899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 51,
+            "name": "I verified Option menu popup",
+            "match": {
+              "location": "tests\\steps\\optionMenu.step.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 29703299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 52,
+            "name": "I log out from the CMS application",
+            "match": {
+              "location": "tests\\steps\\searchInvoice.ts:71"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 65409000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 12480999
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "options-menu-actions;the-cms-pools-options-page-supports-selecting-options-from-the-menu.",
+        "keyword": "Scenario",
+        "line": 55,
+        "name": "The CMS Pools Options page supports selecting options from the menu.",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 81945800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 56,
+            "name": "I am logged into the CMS application",
+            "match": {
+              "location": "tests\\steps\\searchInvoice.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9366278198
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 57,
+            "name": "I click the \"DataManagementMenu\" on the \"homePage\" Page",
+            "match": {
+              "location": "tests\\steps\\optionMenu.step.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2266683799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 58,
+            "name": "I click the \"PoolManagementMenu\" on the \"homePage\" Page",
+            "match": {
+              "location": "tests\\steps\\optionMenu.step.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 67940000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 59,
+            "name": "I click the \"PoolsMenu\" on the \"homePage\" Page",
+            "match": {
+              "location": "tests\\steps\\optionMenu.step.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 76221499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 60,
+            "name": "I verify that the \"Pools\" page is displayed under \"poolManagementPage\"",
+            "match": {
+              "location": "tests\\steps\\optionMenu.step.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4166214498
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 61,
+            "name": "I click the option menu",
+            "match": {
+              "location": "tests\\steps\\optionMenu.step.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 77681499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 62,
+            "name": "I verified Option menu popup",
+            "match": {
+              "location": "tests\\steps\\optionMenu.step.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 21202098
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 63,
+            "name": "I log out from the CMS application",
+            "match": {
+              "location": "tests\\steps\\searchInvoice.ts:71"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 66212998
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 14417399
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "options-menu-actions;the-cms-units-options-page-supports-selecting-options-from-the-menu.",
+        "keyword": "Scenario",
+        "line": 66,
+        "name": "The CMS Units Options page supports selecting options from the menu.",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 78600700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 67,
+            "name": "I am logged into the CMS application",
+            "match": {
+              "location": "tests\\steps\\searchInvoice.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7500983499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 68,
+            "name": "I click the \"DataManagementMenu\" on the \"homePage\" Page",
+            "match": {
+              "location": "tests\\steps\\optionMenu.step.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2173768499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 69,
+            "name": "I click the \"UnitManagementMenu\" on the \"homePage\" Page",
+            "match": {
+              "location": "tests\\steps\\optionMenu.step.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 69178299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 70,
+            "name": "I click the \"UnitsMenu\" on the \"homePage\" Page",
+            "match": {
+              "location": "tests\\steps\\optionMenu.step.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 60038000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 71,
+            "name": "I verify that the \"Units\" page is displayed under \"unitManagementPage\"",
+            "match": {
+              "location": "tests\\steps\\optionMenu.step.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5163929898
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 72,
+            "name": "I click the option menu",
+            "match": {
+              "location": "tests\\steps\\optionMenu.step.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 83283799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 73,
+            "name": "I verified Option menu popup",
+            "match": {
+              "location": "tests\\steps\\optionMenu.step.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 24429999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 74,
+            "name": "I log out from the CMS application",
+            "match": {
+              "location": "tests\\steps\\searchInvoice.ts:71"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 65117300
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 12186000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "options-menu-actions;the-cms-default-oc-haulage-type-options-page-supports-selecting-options-from-the-menu.",
+        "keyword": "Scenario",
+        "line": 77,
+        "name": "The CMS Default OC Haulage Type Options page supports selecting options from the menu.",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 108332299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 78,
+            "name": "I am logged into the CMS application",
+            "match": {
+              "location": "tests\\steps\\searchInvoice.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7500124899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 79,
+            "name": "I click the \"TrackingMenu\" on the \"homePage\" Page",
+            "match": {
+              "location": "tests\\steps\\optionMenu.step.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 91211999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 80,
+            "name": "I click the \"HaulageDataMenu\" on the \"homePage\" Page",
+            "match": {
+              "location": "tests\\steps\\optionMenu.step.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 74719800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 81,
+            "name": "I click the \"DefaultOCHaulageTypeMenu\" on the \"homePage\" Page",
+            "match": {
+              "location": "tests\\steps\\optionMenu.step.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 43212498
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 82,
+            "name": "I verify that the \"DefaultOCHaulageType\" page is displayed under \"haulageDataPage\"",
+            "match": {
+              "location": "tests\\steps\\optionMenu.step.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2454940399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 83,
+            "name": "I click the option menu",
+            "match": {
+              "location": "tests\\steps\\optionMenu.step.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 68074199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 84,
+            "name": "I verified Option menu popup",
+            "match": {
+              "location": "tests\\steps\\optionMenu.step.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 25740400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 85,
+            "name": "I log out from the CMS application",
+            "match": {
+              "location": "tests\\steps\\searchInvoice.ts:71"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 55948499
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 11578800
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "options-menu-actions;the-cms-haulage-data-flat-file-options-page-supports-selecting-options-from-the-menu.",
+        "keyword": "Scenario",
+        "line": 87,
+        "name": "The CMS Haulage Data Flat File Options page supports selecting options from the menu.",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 79642800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 88,
+            "name": "I am logged into the CMS application",
+            "match": {
+              "location": "tests\\steps\\searchInvoice.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10170281500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 89,
+            "name": "I click the \"TrackingMenu\" on the \"homePage\" Page",
+            "match": {
+              "location": "tests\\steps\\optionMenu.step.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 130287999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 90,
+            "name": "I click the \"HaulageDataMenu\" on the \"homePage\" Page",
+            "match": {
+              "location": "tests\\steps\\optionMenu.step.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 51389099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 91,
+            "name": "I click the \"HaulageDataFlatFileMenu\" on the \"homePage\" Page",
+            "match": {
+              "location": "tests\\steps\\optionMenu.step.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 68701799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 92,
+            "name": "I verify that the \"HaulageDataFlatFile\" page is displayed under \"haulageDataPage\"",
+            "match": {
+              "location": "tests\\steps\\optionMenu.step.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8855812300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 93,
+            "name": "I click the option menu",
+            "match": {
+              "location": "tests\\steps\\optionMenu.step.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 81193599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 94,
+            "name": "I verified Option menu popup",
+            "match": {
+              "location": "tests\\steps\\optionMenu.step.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 42134298
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 95,
+            "name": "I log out from the CMS application",
+            "match": {
+              "location": "tests\\steps\\searchInvoice.ts:71"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 50537699
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 15143000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "options-menu-actions;the-cms-unit-movements-options-page-supports-selecting-options-from-the-menu.",
+        "keyword": "Scenario",
+        "line": 98,
+        "name": "The CMS Unit Movements Options page supports selecting options from the menu.",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 156335500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 99,
+            "name": "I am logged into the CMS application",
+            "match": {
+              "location": "tests\\steps\\searchInvoice.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7468297700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 100,
+            "name": "I click the \"TrackingMenu\" on the \"homePage\" Page",
+            "match": {
+              "location": "tests\\steps\\optionMenu.step.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1125408499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 101,
+            "name": "I click the \"MovementsMenu\" on the \"homePage\" Page",
+            "match": {
+              "location": "tests\\steps\\optionMenu.step.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 66473498
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 102,
+            "name": "I click the \"UnitMovementsMenu\" on the \"homePage\" Page",
+            "match": {
+              "location": "tests\\steps\\optionMenu.step.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 74031199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 103,
+            "name": "I verify that the \"UnitMovements\" page is displayed under \"movementsPage\"",
+            "match": {
+              "location": "tests\\steps\\optionMenu.step.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 961234400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 104,
+            "name": "I click the option menu",
+            "match": {
+              "location": "tests\\steps\\optionMenu.step.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 65676998
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 105,
+            "name": "I verified Option menu popup",
+            "match": {
+              "location": "tests\\steps\\optionMenu.step.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 42568498
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 106,
+            "name": "I log out from the CMS application",
+            "match": {
+              "location": "tests\\steps\\searchInvoice.ts:71"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 73753500
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 12032000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "options-menu-actions;the-cms-unit-rejected-moves-options-page-supports-selecting-options-from-the-menu.",
+        "keyword": "Scenario",
+        "line": 108,
+        "name": "The CMS Unit Rejected Moves Options page supports selecting options from the menu.",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 78508299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 109,
+            "name": "I am logged into the CMS application",
+            "match": {
+              "location": "tests\\steps\\searchInvoice.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7544308399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 110,
+            "name": "I click the \"TrackingMenu\" on the \"homePage\" Page",
+            "match": {
+              "location": "tests\\steps\\optionMenu.step.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3191582099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 111,
+            "name": "I click the \"MovementsMenu\" on the \"homePage\" Page",
+            "match": {
+              "location": "tests\\steps\\optionMenu.step.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 53683400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 112,
+            "name": "I click the \"UnitRejectedMovesMenu\" on the \"homePage\" Page",
+            "match": {
+              "location": "tests\\steps\\optionMenu.step.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 119157298
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 114,
+            "name": "I click the option menu",
+            "match": {
+              "location": "tests\\steps\\optionMenu.step.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16194163500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 115,
+            "name": "I verified Option menu popup",
+            "match": {
+              "location": "tests\\steps\\optionMenu.step.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 21618798
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 116,
+            "name": "I log out from the CMS application",
+            "match": {
+              "location": "tests\\steps\\searchInvoice.ts:71"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 62084100
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 14591899
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "options-menu-actions;the-cms-archived-rejected-moves-options-page-supports-selecting-options-from-the-menu.",
+        "keyword": "Scenario",
+        "line": 118,
+        "name": "The CMS Archived Rejected Moves Options page supports selecting options from the menu.",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 79248200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 119,
+            "name": "I am logged into the CMS application",
+            "match": {
+              "location": "tests\\steps\\searchInvoice.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7331792799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 120,
+            "name": "I click the \"TrackingMenu\" on the \"homePage\" Page",
+            "match": {
+              "location": "tests\\steps\\optionMenu.step.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 97259900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 121,
+            "name": "I click the \"MovementsMenu\" on the \"homePage\" Page",
+            "match": {
+              "location": "tests\\steps\\optionMenu.step.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 57466799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 122,
+            "name": "I click the \"ArchivedRejectedMovesMenu\" on the \"homePage\" Page",
+            "match": {
+              "location": "tests\\steps\\optionMenu.step.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 56532399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 123,
+            "name": "I verify that the \"ArchivedRejectedMoves\" page is displayed under \"movementsPage\"",
+            "match": {
+              "location": "tests\\steps\\optionMenu.step.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1417864798
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 124,
+            "name": "I click the option menu",
+            "match": {
+              "location": "tests\\steps\\optionMenu.step.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 58483598
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 125,
+            "name": "I verified Option menu popup",
+            "match": {
+              "location": "tests\\steps\\optionMenu.step.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17698699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 126,
+            "name": "I log out from the CMS application",
+            "match": {
+              "location": "tests\\steps\\searchInvoice.ts:71"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 78290899
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 10860700
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "options-menu-actions;the-cms-movement-event-customers-options-page-supports-selecting-options-from-the-menu.",
+        "keyword": "Scenario",
+        "line": 129,
+        "name": "The CMS Movement Event Customers Options page supports selecting options from the menu.",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 89385199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 130,
+            "name": "I am logged into the CMS application",
+            "match": {
+              "location": "tests\\steps\\searchInvoice.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7595789099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 131,
+            "name": "I click the \"TrackingMenu\" on the \"homePage\" Page",
+            "match": {
+              "location": "tests\\steps\\optionMenu.step.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 78228498
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 132,
+            "name": "I click the \"APIMovementEventsMenu\" on the \"homePage\" Page",
+            "match": {
+              "location": "tests\\steps\\optionMenu.step.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 59051999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 133,
+            "name": "I click the \"MovementEventCustomersMenu\" on the \"homePage\" Page",
+            "match": {
+              "location": "tests\\steps\\optionMenu.step.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 64217998
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 134,
+            "name": "I verify that the \"MovementEventCustomers\" page is displayed under \"apiMovementEventsPage\"",
+            "match": {
+              "location": "tests\\steps\\optionMenu.step.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2518770098
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 135,
+            "name": "I click the option menu",
+            "match": {
+              "location": "tests\\steps\\optionMenu.step.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 73401198
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 136,
+            "name": "I verified Option menu popup",
+            "match": {
+              "location": "tests\\steps\\optionMenu.step.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18128498
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 137,
+            "name": "I log out from the CMS application",
+            "match": {
+              "location": "tests\\steps\\searchInvoice.ts:71"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 58324198
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 11984700
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "options-menu-actions;the-cms-quick-tracking-options-page-supports-selecting-options-from-the-menu.",
+        "keyword": "Scenario",
+        "line": 140,
+        "name": "The CMS Quick Tracking Options page supports selecting options from the menu.",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 82781100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 141,
+            "name": "I am logged into the CMS application",
+            "match": {
+              "location": "tests\\steps\\searchInvoice.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7588510198
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 142,
+            "name": "I click the \"QuickTrackingMenu\" on the \"homePage\" Page",
+            "match": {
+              "location": "tests\\steps\\optionMenu.step.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 176288598
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 143,
+            "name": "I verify that the \"UnitMovements\" page is displayed under \"quickTrackingPage\"",
+            "match": {
+              "location": "tests\\steps\\optionMenu.step.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1517681499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 144,
+            "name": "I click the option menu",
+            "match": {
+              "location": "tests\\steps\\optionMenu.step.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 54228099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 145,
+            "name": "I verified Option menu popup",
+            "match": {
+              "location": "tests\\steps\\optionMenu.step.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16553698
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 146,
+            "name": "I log out from the CMS application",
+            "match": {
+              "location": "tests\\steps\\searchInvoice.ts:71"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 64067000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 10562999
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "options-menu-actions;the-cms-billing-run-options-page-supports-selecting-options-from-the-menu.",
+        "keyword": "Scenario",
+        "line": 149,
+        "name": "The CMS Billing Run Options page supports selecting options from the menu.",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 81856300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 150,
+            "name": "I am logged into the CMS application",
+            "match": {
+              "location": "tests\\steps\\searchInvoice.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7614987298
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 151,
+            "name": "I click the \"BillingMenu\" on the \"homePage\" Page",
+            "match": {
+              "location": "tests\\steps\\optionMenu.step.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1167396799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 152,
+            "name": "I click the \"BillingRunMenu\" on the \"homePage\" Page",
+            "match": {
+              "location": "tests\\steps\\optionMenu.step.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 55382298
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 153,
+            "name": "I click the \"BillingRunSubMenu\" on the \"homePage\" Page",
+            "match": {
+              "location": "tests\\steps\\optionMenu.step.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 78086199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 154,
+            "name": "I verify that the \"BillingRun\" page is displayed under \"billingRunPage\"",
+            "match": {
+              "location": "tests\\steps\\optionMenu.step.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 957300099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 155,
+            "name": "I click the option menu",
+            "match": {
+              "location": "tests\\steps\\optionMenu.step.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 53105599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 156,
+            "name": "I verified Option menu popup",
+            "match": {
+              "location": "tests\\steps\\optionMenu.step.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 24244298
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 157,
+            "name": "I log out from the CMS application",
+            "match": {
+              "location": "tests\\steps\\searchInvoice.ts:71"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 67790399
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 11998400
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "options-menu-actions;the-cms-system-reference-data-options-page-supports-selecting-options-from-the-menu.",
+        "keyword": "Scenario",
+        "line": 160,
+        "name": "The CMS System Reference Data Options page supports selecting options from the menu.",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 87631400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 161,
+            "name": "I am logged into the CMS application",
+            "match": {
+              "location": "tests\\steps\\searchInvoice.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7874013798
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 162,
+            "name": "I click the \"SystemAdministrationMenu\" on the \"homePage\" Page",
+            "match": {
+              "location": "tests\\steps\\optionMenu.step.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5282190699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 163,
+            "name": "I click the \"ReferenceDataMenu\" on the \"homePage\" Page",
+            "match": {
+              "location": "tests\\steps\\optionMenu.step.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 43560298
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 164,
+            "name": "I click the \"SystemReferenceDataMenu\" on the \"homePage\" Page",
+            "match": {
+              "location": "tests\\steps\\optionMenu.step.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 79890899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 165,
+            "name": "I wait for page to load",
+            "match": {
+              "location": "tests\\steps\\optionMenu.step.ts:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10013857998
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 166,
+            "name": "I verify that the \"SystemReferenceData\" page is displayed under \"referenceDataPage\"",
+            "match": {
+              "location": "tests\\steps\\optionMenu.step.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 49858799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 167,
+            "name": "I click the option menu",
+            "match": {
+              "location": "tests\\steps\\optionMenu.step.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 78561498
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 168,
+            "name": "I verified Option menu popup",
+            "match": {
+              "location": "tests\\steps\\optionMenu.step.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 21625700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 169,
+            "name": "I log out from the CMS application",
+            "match": {
+              "location": "tests\\steps\\searchInvoice.ts:71"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 72781899
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 13719000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "options-menu-actions;the-cms-pool-reference-data-options-page-supports-selecting-options-from-the-menu.",
+        "keyword": "Scenario",
+        "line": 171,
+        "name": "The CMS Pool Reference Data Options page supports selecting options from the menu.",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 90163499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 172,
+            "name": "I am logged into the CMS application",
+            "match": {
+              "location": "tests\\steps\\searchInvoice.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7901164798
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 173,
+            "name": "I click the \"SystemAdministrationMenu\" on the \"homePage\" Page",
+            "match": {
+              "location": "tests\\steps\\optionMenu.step.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2168626598
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 174,
+            "name": "I click the \"ReferenceDataMenu\" on the \"homePage\" Page",
+            "match": {
+              "location": "tests\\steps\\optionMenu.step.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 52890200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 175,
+            "name": "I click the \"PoolReferenceDataMenu\" on the \"homePage\" Page",
+            "match": {
+              "location": "tests\\steps\\optionMenu.step.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 67263098
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 176,
+            "name": "I wait for page to load",
+            "match": {
+              "location": "tests\\steps\\optionMenu.step.ts:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10009257500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 177,
+            "name": "I verify that the \"PoolReferenceData\" page is displayed under \"referenceDataPage\"",
+            "match": {
+              "location": "tests\\steps\\optionMenu.step.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 48442999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 178,
+            "name": "I click the option menu",
+            "match": {
+              "location": "tests\\steps\\optionMenu.step.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 75997699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 179,
+            "name": "I verified Option menu popup",
+            "match": {
+              "location": "tests\\steps\\optionMenu.step.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18979699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 180,
+            "name": "I log out from the CMS application",
+            "match": {
+              "location": "tests\\steps\\searchInvoice.ts:71"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 60977199
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 13504899
             }
           }
         ],
